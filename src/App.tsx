@@ -228,7 +228,7 @@ export default function App() {
           </div>
 
           <div className="relative z-10 flex flex-col items-center text-center mt-32">
-            <div className="w-28 h-28 rounded-3xl p-2 bg-white shadow-2xl border border-white/20 rotate-3 transform hover:rotate-0 transition-transform flex items-center justify-center">
+            <div className="w-28 h-28 rounded-3xl p-2 bg-white shadow-2xl border border-white/20 mb-6 flex items-center justify-center">
               <img 
                 src={pageData.profileImg} 
                 alt="Profile" 
@@ -518,7 +518,7 @@ export default function App() {
         <footer className="pt-8 pb-12 text-center flex flex-col items-center justify-center mx-6 mt-4">
           <div className="w-full h-px bg-white/10 mb-8"></div>
           
-          <div className="w-16 h-16 bg-white rounded-2xl shadow-sm border border-white/20 flex items-center justify-center mb-4 p-2 overflow-hidden transform rotate-3">
+          <div className="w-16 h-16 bg-white rounded-2xl shadow-sm border border-white/20 flex items-center justify-center mb-4 p-2 overflow-hidden">
             <img src={pageData.profileImg} alt="Footer Logo" className="w-full h-full object-contain" />
           </div>
           
@@ -581,7 +581,7 @@ export default function App() {
             </div>
 
             <div className="bg-slate-800/50 border border-white/10 rounded-[24px] p-8 flex flex-col items-center justify-center mb-8 shadow-sm">
-              <div className="w-[72px] h-[72px] rounded-2xl bg-white border border-white/20 mb-4 p-2 overflow-hidden transform rotate-3 flex items-center justify-center">
+              <div className="w-[72px] h-[72px] rounded-2xl bg-white border border-white/20 mb-4 p-2 overflow-hidden flex items-center justify-center">
                 <img src={pageData.profileImg} alt="Profile" className="w-full h-full object-contain" />
               </div>
               <h4 className="text-white font-bold text-lg text-center tracking-tight">@{pageData.name.toLowerCase().replace(/\s/g, '')}</h4>
